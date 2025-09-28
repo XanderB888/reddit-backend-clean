@@ -9,7 +9,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://reddit-clone-rust-eta.vercel.app'
+    'https://reddit-clone-rust-eta.vercel.app',
+    'https://reddit-clone-ioe-vercel.app'
   ]
 }));
 
